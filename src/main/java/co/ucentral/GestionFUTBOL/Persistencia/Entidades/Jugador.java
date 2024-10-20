@@ -20,7 +20,7 @@ public class Jugador {
 
     @Id
     @Column(name = "Codigo_Jugador")
-    public int Codigo;
+    public long Codigo;
 
     @Column(name = "Nombre")
     public String Nombre;
